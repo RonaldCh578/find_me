@@ -11,6 +11,11 @@
     margin: 0 !important;
 }
 
+.row{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -66,13 +71,17 @@ body{
     display: block;
     margin: 10% 0 10% 0;
     padding: 2em;
-    width: 102%;
+    width: 100%;
     height: 80%;
     background-color: var(--lightgray);
     border-radius: 1em 0 0 1em;
 }
-.heigh100{
+.heigh100-l{
     height: 100vh;
+}
+.heigh100-r{
+    height: 100vh;
+    padding-right: 0;
 }
 .findme-title{
     display: block;
@@ -144,4 +153,106 @@ body{
 .form-login{
     height: 80%;
     margin: 10% auto;
+}
+
+/*************************MEDIA QUERIES MOBILE*************************/
+@media only screen and (max-width: 480px) {
+    .findme-title{
+        display: block;
+        width: 100%;
+        margin: 1em 0 .5em;
+        font-size: 3em;
+    }
+    .are-new{
+        font-size: 1em;
+        padding: .5em;
+    }
+    .signup-btn{
+        padding: .5em 2em;
+        font-size: .7em;
+    }
+    .heigh100-l{
+        height: 35vh;
+    }
+    .heigh100-r{
+        height: 65vh;
+    }
+    .subtitles{
+        font-size: 1.5em;
+        margin: 1em 0 1em;
+    }
+    .inputs{
+        width: 90%;    
+    }
+    .forgot-password{
+        width: 90%;
+        margin: .5em auto;
+        font-size: .7em;
+    }
+    .go-btn{
+        margin: 2em auto;
+        font-size: .8em;
+    }
+    .card{
+        display: block;
+        margin: 10% 5%;
+        padding: 2em;
+        width: 90%;
+        height: 80%;
+        background-color: var(--lightgray);
+        border-radius: 1em;
+    }
+    .col-sm-6{
+        padding: 0;
+    }
+}
+
+/*************************MEDIA QUERIES TABLET*************************/
+@media only screen and (min-width:480.1px) and (max-width: 960px) {
+    .findme-title{
+        margin: .5em 0 0em;
+        font-size: 4em;
+    }
+    .are-new{
+        font-size: 1.2em;
+    }
+    .signup-btn{
+        padding: .5em 2em;
+        font-size: .8em;
+    }
+    .heigh100-l{
+        height: 35vh;
+    }
+    .heigh100-r{
+        height: 65vh;
+    }
+    .subtitles{
+        font-size: 1.5em;
+        margin: 1em 0 1em;
+    }
+    .inputs{
+        width: 90%;    
+    }
+    .forgot-password{
+        width: 90%;
+        margin: .5em auto;
+        font-size: .8em;
+    }
+    .go-btn{
+        margin: 2em auto;
+        font-size: 1em;
+    }
+    .card{
+        display: block;
+        margin: 2% 15% 18%;
+        padding: 2em;
+        width: 70%;
+        height: 80%;
+        background-color: var(--lightgray);
+        border-radius: 1em;
+    }
+    .col-sm-6{
+        padding: 0;
+        width: 100%;
+    }
 }
