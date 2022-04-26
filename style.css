@@ -4,6 +4,7 @@
     --orange: #EF830F;
     --lightgray: #FAFAFA;
     --gray: #DFDFDF;
+    --blue: #0179B7;
 }
 
 #html{
@@ -54,4 +55,93 @@ body{
     color: var(--purple-light);
     font-size: 1.5em;
     vertical-align: middle;
+}
+.purple-bg{
+    background-color: var(--purple-base);
+    min-height: 100vh;
+    max-height: 100vh;
+    width: 100%;
+}
+.card{
+    display: block;
+    margin: 10% 0 10% 0;
+    padding: 2em;
+    width: 102%;
+    height: 80%;
+    background-color: var(--lightgray);
+    border-radius: 1em 0 0 1em;
+}
+.heigh100{
+    height: 100vh;
+}
+.findme-title{
+    display: block;
+    width: 100%;
+    color: var(--lightgray);
+    font-size: 7em;
+    text-align: center;
+    margin: 1.5em 0 1em;
+    font-weight: 700;
+}
+.subtitles{
+    font-weight: 700;
+    display: block;
+    width: 100%;
+    color: var(--purple-base);
+    font-size: 2em;
+    text-align: center;
+    margin: 1.5em 0 1em;
+}
+.signup-btn{
+    background: var(--lightgray);
+    color: var(--purple-base);
+    margin: 0;
+    padding: 1em 3em;
+    border-radius: 1em;
+    text-decoration: none;
+    font-weight: 700;
+}
+.signup-btn:hover{
+    background: var(--purple-light);
+    color: var(--purple-base);
+}
+.are-new{
+    color: var(--lightgray);
+    font-size: 1.2em;
+    padding: 1em;
+}
+.inputs{
+    color: var(--purple-base);
+    border: 0;
+    border-bottom: .1em solid var(--purple-base);
+    display: block;
+    width: 70%;
+    margin: 1em auto;
+
+}
+.forgot-password{
+    color: var(--blue);
+    text-decoration: none;
+    width: 70%;
+    margin: 1em auto;
+    text-align: right;
+    display: block;
+}
+.forgot-password:hover{
+    text-decoration: underline;
+}
+.go-btn{
+    margin: 5em auto;
+    display: block;
+    background: var(--orange);
+    color: var(--lightgray);
+    padding: .5em 3em;
+    border-radius: 1em;
+    text-decoration: none;
+    font-weight: 700;
+    border: none;
+}
+.form-login{
+    height: 80%;
+    margin: 10% auto;
 }
