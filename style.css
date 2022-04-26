@@ -17,9 +17,12 @@ body{
 }
 
 .nav{
+    position: fixed;
     margin: 0;
     padding: 1em;
+    width: 100%;
     background-color: var(--purple-base);
+    filter: drop-shadow(0px 5px 10px #27272786);
 }
 
 .logo{
@@ -32,26 +35,66 @@ body{
 .search-bar{
     margin: auto 0;
     padding: .7em .7em;
-    width: 50%;
+    width: 100%;
     border: none;
     border-radius: 1em;
     background-color: var(--purple-light);
-    color: white;
+    color: var(--purple-base);
 }
 
 .search-bar::placeholder{
     margin: 0;
-    padding: .5em;
     color: var(--purple-base);
 }
 
-.employee-btn{
+.search-btn{
+    background-color: var(--purple-light);
+    border-radius: 1em;
+}
 
+.search-btn img{
+    margin: 0;
+    padding: 0;
+    width: 1.5em;
+    height: auto;
+}
+
+.container-btn-employee{
+    display: flex;
+    margin: auto 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    justify-content: flex-end;
+}
+
+.employee-btn{
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    vertical-align: middle;
+}
+
+.employee-btn img{
+    margin: 0;
+    padding: 0;
+    width: 2em;
+    height: auto;
 }
 
 .user-btn{
+    margin: auto 0;
+    padding: 0;
     text-decoration: none;
     color: var(--purple-light);
-    font-size: 1.5em;
+    font-size: 1.3em;
+    vertical-align: middle;
+}
+
+.user-btn img{
+    margin: 0 0 0 .5em;
+    padding: 0;
+    width: 1.5em;
+    height: auto;
     vertical-align: middle;
 }
