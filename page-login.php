@@ -15,7 +15,7 @@
                     <form class="form-login" action="#">
                         <input class="inputs" type="text" placeholder="Username" name="username">
                         <input class="inputs" type="password" placeholder="Password" name="password">
-                        <a class="forgot-password" href="#">Forgot Password</a>
+                        <a class="forgot-password" href="../forgot_password">Forgot Password</a>
                         <input class="go-btn" type="submit" value="GO">
                     </form>
                 </div>
