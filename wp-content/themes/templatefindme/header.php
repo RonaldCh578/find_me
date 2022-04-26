@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" id="html">
 
 <head>
     <meta charset="UTF-8">
@@ -15,18 +15,17 @@
     <div>
         <!-- header -->
         <header>
-            <!-- nav -->
-            <nav>
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="services">SERVICES</a></li>
-                    <li><a href="#">PORTFOLIO</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                </ul>
+            <nav class="row nav">
+                <div class="col-2">
+                    <p class="logo">Find.me</p>
+                </div>
+                <div class="col-8">
+                    <input class="search-bar" type="text" placeholder="Search something...">
+                    <a class="employee-btn" href="#"><img src="./assets/employee.svg" alt=""></a>
+                </div>
+                <div class="col-2 d-flex justify-content-end">
+                    <a class="user-btn" href="#">Username <img src="./assets/user-icon.svg" alt=""></a>
+                </div>
             </nav>
-            <!-- nav -->
-            <div>
-                <h1>MAIN TITLE - WORDPRESS</h1>
-            </div>
         </header>
         <!-- header -->
