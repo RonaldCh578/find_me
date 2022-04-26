@@ -5,6 +5,7 @@
     --lightgray: #FAFAFA;
     --gray: #DFDFDF;
     --blue: #0179B7;
+    --light-orange: #FF9C32;
 }
 
 #html{
@@ -144,6 +145,9 @@ body{
     text-align: center;
     margin: 1.5em 0 1em;
 }
+.forgot-subtitle{
+    margin: 1.5em 0 4em;
+}
 .signup-btn{
     background: var(--lightgray);
     color: var(--purple-base);
@@ -193,8 +197,45 @@ body{
     font-weight: 700;
     border: none;
 }
+.send-btn{
+    margin: 5em auto;
+    background: var(--orange);
+    color: var(--lightgray);
+    padding: .5em 3em;
+    border-radius: 1em;
+    text-decoration: none;
+    font-weight: 700;
+    border: none;
+    float: right;
+    margin-right: 15%;
+}
+.send-btn:hover{
+    background: var(--light-orange);
+}
+.back-btn{
+    margin: 5em auto;
+    background: var(--purple-light);
+    color: var(--lightgray);
+    padding: .5em 3em;
+    border-radius: 1em;
+    text-decoration: none;
+    font-weight: 700;
+    border: none;
+    float: left;
+    margin-left: 15%;
+}
+.back-btn:hover{
+    color: var(--purple-base);
+}
+.findme-title-forgot{
+    margin: 2em 0 1em;
+}
 .form-login{
     height: 80%;
+    margin: 10% auto;
+}
+.form-forgot{
+    height: 60%;
     margin: 10% auto;
 }
 
@@ -205,6 +246,9 @@ body{
         width: 100%;
         margin: 1em 0 .5em;
         font-size: 3em;
+    }
+    .findme-title-forgot{
+        margin: 2em 0 1em;
     }
     .are-new{
         font-size: 1em;
@@ -236,6 +280,20 @@ body{
         margin: 2em auto;
         font-size: .8em;
     }
+    .back-btn{
+        margin: 2em auto;
+        font-size: .8em;
+        float: none;
+        display: block;
+        text-align: center;
+        width: fit-content;
+    }
+    .send-btn{
+        margin: 2em auto;
+        font-size: .8em;
+        float: none;
+        display: block;
+    }
     .card{
         display: block;
         margin: 10% 5%;
@@ -255,6 +313,9 @@ body{
     .findme-title{
         margin: .5em 0 0em;
         font-size: 4em;
+    }
+    .findme-title-forgot{
+        margin: 1.5em 0 1em;
     }
     .are-new{
         font-size: 1.2em;
@@ -284,6 +345,18 @@ body{
     .go-btn{
         margin: 2em auto;
         font-size: 1em;
+    }
+    .send-btn{
+        margin: 2em auto;
+        font-size: 1em;
+        margin-right: 5%;
+        padding: .5em 2em;
+    }
+    .back-btn{
+        margin: 2em auto;
+        font-size: 1em;
+        margin-left: 5%;
+        padding: .5em 2em;
     }
     .card{
         display: block;
