@@ -6,22 +6,18 @@
     --gray: #DFDFDF;
     --blue: #0179B7;
 }
-
 #html{
     margin: 0 !important;
 }
-
 .row{
     margin: 0;
     padding: 0;
 }
-
 body{
     margin: 0;
     padding: 0;
     background-color: var(--gray);
 }
-
 .nav{
     position: fixed;
     margin: 0;
@@ -30,41 +26,43 @@ body{
     background-color: var(--purple-base);
     filter: drop-shadow(0px 5px 10px #27272786);
 }
-
 .logo{
     margin: 0;
     padding: 0;
     color: white;
-    font-size: 2em;
+    font-size: 1.5em;
 }
-
 .search-bar{
     margin: auto 0;
-    padding: .7em .7em;
+    padding: .5em .7em;
     width: 100%;
     border: none;
     border-radius: 1em;
     background-color: var(--purple-light);
     color: var(--purple-base);
 }
-
 .search-bar::placeholder{
     margin: 0;
     color: var(--purple-base);
 }
-
 .search-btn{
     background-color: var(--purple-light);
     border-radius: 1em;
 }
-
-.search-btn img{
+.search-btn:hover{
+    background-color: var(--purple-base);
+    border-radius: 1em;
+}
+.search-btn:hover svg{
+    color: var(--purple-light);
+}
+.search-btn svg{
     margin: 0;
     padding: 0;
     width: 1.5em;
     height: auto;
+    color: var(--purple-base);
 }
-
 .container-btn-employee{
     display: flex;
     margin: auto 0;
@@ -73,21 +71,23 @@ body{
     height: auto;
     justify-content: flex-end;
 }
-
 .employee-btn{
     margin: 0;
     padding: 0;
     height: fit-content;
     vertical-align: middle;
+    text-decoration: none;
+    color: var(--purple-light);
 }
-
-.employee-btn img{
+.employee-btn svg{
     margin: 0;
     padding: 0;
     width: 2em;
     height: auto;
 }
-
+.employee-btn:hover svg{
+    color: white;
+}
 .user-btn{
     margin: auto 0;
     padding: 0;
@@ -96,13 +96,19 @@ body{
     font-size: 1.3em;
     vertical-align: middle;
 }
-
-.user-btn img{
+.user-btn:hover{
+    color: white;
+}
+.user-btn:hover svg{
+    color: white;
+}
+.user-btn svg{
     margin: 0 0 0 .5em;
     padding: 0;
     width: 1.5em;
     height: auto;
     vertical-align: middle;
+    color: var(--purple-light);
 }
 .purple-bg{
     background-color: var(--purple-base);
