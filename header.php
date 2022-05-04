@@ -15,11 +15,19 @@
     <div>
         <!-- header -->
         <header>
-            <nav class="row nav">
-                <div class="col-2">
-                    <p class="logo">Find.me</p>
+            <nav class="nav">
+                <div class="container-logo">
+                    <a class="logo" href="#">Find.me</a>
                 </div>
-                <div class="col-8 d-flex">
+
+                <div class="menu-btn-container">
+
+                    <svg viewBox="0 0 19 15" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1H18M1 14H18H1ZM1 7.5H18H1Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+
+                </div>
+                <div class="d-flex container-searchbar">
 
                     <div class="input-group m-auto">
                         <input type="text" class="form-control search-bar" placeholder="Search something..." aria-label="Search something..." aria-describedby="button-submit">
@@ -45,7 +53,7 @@
 
                 </div>
 
-                <div class="col-2 d-flex justify-content-end">
+                <div class="d-flex justify-content-end container-username">
                     <a class="user-btn" href="#">Username 
                         <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M20 8.57141C18.5873 8.57141 17.2063 8.99033 16.0317 9.7752C14.857 10.5601 13.9415 11.6756 13.4009 12.9808C12.8603 14.286 12.7188 15.7222 12.9944 17.1078C13.27 18.4933 13.9503 19.7661 14.9493 20.765C15.9482 21.764 17.221 22.4443 18.6065 22.7199C19.9921 22.9955 21.4283 22.854 22.7335 22.3134C24.0387 21.7728 25.1542 20.8573 25.9391 19.6826C26.724 18.508 27.1429 17.127 27.1429 15.7143C27.1429 13.8199 26.3903 12.0031 25.0508 10.6635C23.7113 9.32396 21.8944 8.57141 20 8.57141Z" fill="currentColor"/>

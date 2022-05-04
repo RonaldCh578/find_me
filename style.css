@@ -10,6 +10,15 @@
 #html{
     margin: 0 !important;
 }
+#ulnavbar{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-grow: 3;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
 .row{
     margin: 0;
     padding: 0;
@@ -20,18 +29,32 @@ body{
     background-color: var(--gray);
 }
 .nav{
+    display: flex;
     position: fixed;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
     margin: 0;
     padding: .6em 1em;
     width: 100%;
     background-color: var(--purple-base);
     filter: drop-shadow(0px 5px 10px #27272786);
 }
+.container-logo{
+    flex-grow: 1;
+}
 .logo{
     margin: 0;
     padding: 0;
     color: white;
     font-size: 1.5em;
+    text-decoration: none;
+}
+.logo:hover{
+    color: var(--purple-light);
+}
+.container-searchbar{
+    flex-grow: 2;
 }
 .search-bar{
     margin: auto 0;
@@ -91,6 +114,9 @@ body{
 .employee-btn:hover svg{
     color: white;
 }
+.container-username{
+    flex-grow: 1;
+}
 .user-btn{
     margin: auto 0;
     padding: 0;
@@ -112,6 +138,23 @@ body{
     height: auto;
     vertical-align: middle;
     color: var(--purple-light);
+}
+.menu-btn-container{
+    
+}
+.menu-btn-container svg{
+    display: none;
+    margin: 0;
+    padding: 0;
+    width: 1.5em;
+    height: auto;
+    color: var(--purple-light);
+}
+.li-search-bar{
+
+}
+.li-usernamo{
+
 }
 .purple-bg{
     background-color: var(--purple-base);
