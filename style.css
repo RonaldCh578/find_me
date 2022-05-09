@@ -459,17 +459,20 @@ body{
         padding: 0;
     }
     .card-project{
-        margin: 1em auto;
+        margin: 2em auto;
         border-radius: 0;
     }
-    .proj-description{
-        font-size: 1.3em;
+    .card-project h4{
+        margin-bottom: .5em;
     }
     .author-proj svg{
         width: 2.2em;
     }
     .author-proj p{
         font-size: 2em;
+    }
+    .proj-description{
+        font-size: 1.3em;
     }
     .container-photos{
         flex-direction: column;
