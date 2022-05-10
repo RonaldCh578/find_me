@@ -339,6 +339,107 @@ body{
     height: 60%;
     margin: 10% auto;
 }
+.min-height{
+    min-height: calc(100vh-2em);
+}
+.main-cont-home{
+    margin: 0;
+    padding: 4em 0 0 0;
+}
+
+/****HOME PAGE****/
+.card-project{
+    margin: 1em auto;
+    padding: 1em;
+    background-color: var(--lightgray);
+    border-radius: 1em;
+}
+.card-project h4{
+    margin: 0;
+    margin-left: .2em;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: var(--orange);
+    font-size: 2em;
+}
+.card-project h4:hover{
+    color: var(--light-orange);
+    cursor: pointer;
+}
+.author-proj{
+    display: flex;
+    margin: .5em 0;
+    margin-left: .3em;
+    padding: 0;
+    width: fit-content;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+.author-proj:hover{
+    cursor: pointer;
+}
+.author-proj:hover svg{
+    color: var(--purple-light);
+}
+.author-proj:hover p{
+    color: var(--purple-light);
+}
+.author-proj svg{
+    margin: 0;
+    margin-right: .7em;
+    padding: 0;
+    width: 1.7em;
+    height: auto;
+    color: var(--purple-base);
+}
+.author-proj p{
+    margin: auto 0;
+    padding: 0;
+    color: var(--purple-base);
+    font-size: 1.5em;
+}
+.proj-description{
+    margin: 1em 0;
+    margin-left: .3em;
+    padding: 0;
+    font-size: 1.1em;
+    color: #424242;
+}
+.container-photos{
+    display: flex;
+    margin: .5em 0;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.container-photos .prime-img{
+    margin: 0;
+    padding: 0;
+    width: 67.7%;
+}
+.container-photos .prime-img img{
+    margin: 0;
+    padding: .2em;
+    width: 100%;
+    height: auto;
+}
+.container-photos .sec-imgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 33.3%;
+}
+.container-photos .sec-imgs img{
+    margin: 0;
+    padding: .2em;
+    width: auto;
+    height: 50%;
+}
 
 /*************************MEDIA QUERIES MOBILE*************************/
 @media only screen and (max-width: 480px) {
@@ -406,6 +507,36 @@ body{
     }
     .col-sm-6{
         padding: 0;
+    }
+    .card-project{
+        margin: 2em auto;
+        border-radius: 0;
+    }
+    .card-project h4{
+        margin-bottom: .5em;
+    }
+    .author-proj svg{
+        width: 2.2em;
+    }
+    .author-proj p{
+        font-size: 2em;
+    }
+    .proj-description{
+        font-size: 1.3em;
+    }
+    .container-photos{
+        flex-direction: column;
+    }
+    .container-photos .prime-img{
+        width: 100%;
+    }
+    .container-photos .sec-imgs{
+        flex-direction: row;
+        width: 100%;
+    }
+    .container-photos .sec-imgs img{
+        width: 50%;
+        height: auto;
     }
 }
 
