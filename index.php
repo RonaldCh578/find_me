@@ -26,6 +26,8 @@
             </div>
         </div>
 
+        <hr>
+
         <div class="col-sm-7 card-project">
         <h4 data-toggle="tooltip" data-placement="top" title="Project Name">
                 New Project Name
