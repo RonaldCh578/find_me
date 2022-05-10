@@ -162,6 +162,9 @@ body{
     max-height: 100vh;
     width: 100%;
 }
+.gray-bg{
+    background-color: var(--gray);
+}
 .card{
     display: block;
     margin: 10% 0 10% 0;
@@ -170,6 +173,42 @@ body{
     height: 80%;
     background-color: var(--lightgray);
     border-radius: 1em 0 0 1em;
+}
+.profile-card{
+    display: block;
+    margin: 10% 0 1% 10%;
+    padding: 1em 0em 1em 1em;
+    /*width: 100%;
+    height: 80%;*/
+    background-color: var(--lightgray);
+    border-radius: 1em;
+}
+.portfolio-card{
+    display: block;
+    margin: 1% 0 1% 10%;
+    padding: 1em 0em 1em 1em;
+    /*width: 100%;
+    height: 80%;*/
+    background-color: var(--lightgray);
+    border-radius: 1em;
+}
+.skills-card{
+    display: block;
+    margin: 21% 20% 1% -6%;
+    padding: 1em;
+    /*width: 100%;
+    height: 80%;*/
+    background-color: var(--lightgray);
+    border-radius: 1em;
+}
+.more-skills-card{
+    display: block;
+    margin: 3% 20% 1% -6%;
+    padding: 1em;
+    /*width: 100%;
+    height: 80%;*/
+    background-color: var(--lightgray);
+    border-radius: 1em;
 }
 .heigh100-l{
     height: 100vh;
@@ -195,6 +234,17 @@ body{
     font-size: 2em;
     text-align: center;
     margin: 1.5em 0 1em;
+}
+.profile-subtitles{
+    font-weight: 700;
+    display: block;
+    width: 100%;
+    color: var(--purple-base);
+    font-size: 1.5em;
+    margin: 0.5em 0.5em;
+}
+.skills-subtitles{
+    margin: 0.5em 1em 0.5em 2em;
 }
 .forgot-subtitle{
     margin: 1.5em 0 4em;
