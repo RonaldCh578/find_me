@@ -8,7 +8,7 @@
             </h1>
             <div class="input-group m-auto">
                     <input type="text" class="form-control search-bar" placeholder="Search something..." aria-label="Search something..." aria-describedby="button-submit">
-                    <button class="btn search-btn" type="button" id="button-submit">
+                    <button class="btn search-btn d-flex justify-content-center align-items-center" type="button" id="button-submit">
 
                         <svg viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M20 20L15.514 15.506L20 20ZM18 9.5C18 11.7543 17.1045 13.9163 15.5104 15.5104C13.9163 17.1045 11.7543 18 9.5 18C7.24566 18 5.08365 17.1045 3.48959 15.5104C1.89553 13.9163 1 11.7543 1 9.5C1 7.24566 1.89553 5.08365 3.48959 3.48959C5.08365 1.89553 7.24566 1 9.5 1C11.7543 1 13.9163 1.89553 15.5104 3.48959C17.1045 5.08365 18 7.24566 18 9.5V9.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
@@ -31,12 +31,12 @@
 
                 </div>
                 <div class="options-container">
-                    <div class="col option"><a href="#" class="">Graphics & Design</a></div>
-                    <div class="col option"><a href="#" class="">Digital Marketing</a></div>
-                    <div class="col option"><a href="#" class="">Video & Animation</a></div>
-                    <div class="col option"><a href="#" class="">Music & Audio</a></div>
-                    <div class="col option"><a href="#" class="">Programming</a></div>
-                    <div class="col option"><a href="#" class="">Others</a></div>
+                    <div class="col option"><a href="#">Graphics & Design</a></div>
+                    <div class="col option"><a href="#">Digital Marketing</a></div>
+                    <div class="col option"><a href="#">Video & Animation</a></div>
+                    <div class="col option"><a href="#">Music & Audio</a></div>
+                    <div class="col option"><a href="#">Programming</a></div>
+                    <div class="col option"><a href="#">Others</a></div>
                 </div>
             </div>
         </div>
@@ -44,50 +44,108 @@
 
     <div class="row">
 
-        <div class="col-sm-7 container-card-users">
-            <div class="card-user">
-                <a class="container-photo" href="#user01">
-                    <img src="<?php echo get_theme_file_uri( 'assets/svg/default-img.svg' ); ?>" alt="default image">
-                </a>
+        <div class="col-sm-7 m-auto">
+            <div class="row container-card-users">
+                <div class="row card-user">
+                    <div class="col-sm-3 d-flex justify-content-center align-items-center">
+                        <a class="container-photo" href="#user01">
+                            <img src="<?php echo get_theme_file_uri( 'assets/svg/default-img.svg' ); ?>" alt="default image">
+                        </a>
+                    </div>
 
-                <div class="info-user">
-                    <a href="#user01">
-                        <h4>User 01</h4>    
-                    </a>
+                    <div class="col-sm-9">
+                        <div class="info-user">
+                            <a href="#user01">
+                                <h4>User 01</h4>    
+                            </a>
+                            
+                            <span>
+                                <a href="#">Category 1</a>
+                                    | <a href="#">Category 2</a>
+                                    | <a href="#">Category 3</a>
+                                    | <a href="#">Category 4</a>
+                            </span>
+                            <p>Lorem ipsum dolor sit amet te te vero et et consequat in ipsum sit dolor no accusam tempor in eirmod nostrud veniam nonumy sea sit duo sit lorem ipsum gubergren ipsum ut ipsum liber amet te et no labore at justo consectetuer autem et diam amet in diam sed rebum nonumy voluptua</p>
+                        </div>
+                    </div>
                     
-                    <span>
-                        <a href="#">Category 1</a>
-                            | <a href="#">Category 2</a>
-                            | <a href="#">Category 3</a>
-                            | <a href="#">Category 4</a>
-                    </span>
-                    <p>Lorem ipsum dolor sit amet te te vero et et consequat in ipsum sit dolor no accusam tempor in eirmod nostrud veniam nonumy sea sit duo sit lorem ipsum gubergren ipsum ut ipsum liber amet te et no labore at justo consectetuer autem et diam amet in diam sed rebum nonumy voluptua...</p>
+                </div>
+
+                <div class="row card-user">
+                    <div class="col-sm-3 d-flex justify-content-center align-items-center">
+                        <a class="container-photo" href="#user01">
+                            <img src="<?php echo get_theme_file_uri( 'assets/svg/default-img.svg' ); ?>" alt="default image">
+                        </a>
+                    </div>
+
+                    <div class="col-sm-9">
+                        <div class="info-user">
+                            <a href="#user01">
+                                <h4>User 01</h4>    
+                            </a>
+                            
+                            <span>
+                                <a href="#">Category 1</a>
+                                    | <a href="#">Category 2</a>
+                                    | <a href="#">Category 3</a>
+                                    | <a href="#">Category 4</a>
+                            </span>
+                            <p>Lorem ipsum dolor sit amet te te vero et et consequat in ipsum sit dolor no accusam tempor in eirmod nostrud veniam nonumy sea sit duo sit lorem ipsum gubergren ipsum ut ipsum liber amet te et no labore at justo consectetuer autem et diam amet in diam sed rebum nonumy voluptua</p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="row card-user">
+                    <div class="col-sm-3 d-flex justify-content-center align-items-center">
+                        <a class="container-photo" href="#user01">
+                            <img src="<?php echo get_theme_file_uri( 'assets/svg/default-img.svg' ); ?>" alt="default image">
+                        </a>
+                    </div>
+
+                    <div class="col-sm-9">
+                        <div class="info-user">
+                            <a href="#user01">
+                                <h4>User 01</h4>    
+                            </a>
+                            
+                            <span>
+                                <a href="#">Category 1</a>
+                                    | <a href="#">Category 2</a>
+                                    | <a href="#">Category 3</a>
+                                    | <a href="#">Category 4</a>
+                            </span>
+                            <p>Lorem ipsum dolor sit amet te te vero et et consequat in ipsum sit dolor no accusam tempor in eirmod nostrud veniam nonumy sea sit duo sit lorem ipsum gubergren ipsum ut ipsum liber amet te et no labore at justo consectetuer autem et diam amet in diam sed rebum nonumy voluptua</p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="row card-user">
+                    <div class="col-sm-3 d-flex justify-content-center align-items-center">
+                        <a class="container-photo" href="#user01">
+                            <img src="<?php echo get_theme_file_uri( 'assets/svg/default-img.svg' ); ?>" alt="default image">
+                        </a>
+                    </div>
+
+                    <div class="col-sm-9">
+                        <div class="info-user">
+                            <a href="#user01">
+                                <h4>User 01</h4>    
+                            </a>
+                            
+                            <span>
+                                <a href="#">Category 1</a>
+                                    | <a href="#">Category 2</a>
+                                    | <a href="#">Category 3</a>
+                                    | <a href="#">Category 4</a>
+                            </span>
+                            <p>Lorem ipsum dolor sit amet te te vero et et consequat in ipsum sit dolor no accusam tempor in eirmod nostrud veniam nonumy sea sit duo sit lorem ipsum gubergren ipsum ut ipsum liber amet te et no labore at justo consectetuer autem et diam amet in diam sed rebum nonumy voluptua</p>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
-
-        </div>
-
-        <div class="col-sm-7 container-card-users">
-            <div class="card-user">
-                <a class="container-photo" href="#user02">
-                    <img src="<?php echo get_theme_file_uri( 'assets/svg/default-img.svg' ); ?>" alt="default image">
-                </a>
-
-                <div class="info-user">
-                    <a href="#user02">
-                        <h4>User 02</h4>    
-                    </a>
-                    
-                    <span>
-                        <a href="#">Category 1</a>
-                            | <a href="#">Category 2</a>
-                            | <a href="#">Category 3</a>
-                            | <a href="#">Category 4</a>
-                    </span>
-                    <p>Lorem ipsum dolor sit amet te te vero et et consequat in ipsum sit dolor no accusam tempor in eirmod nostrud veniam nonumy sea sit duo sit lorem ipsum gubergren ipsum ut ipsum liber amet te et no labore at justo consectetuer autem et diam amet in diam sed rebum nonumy voluptua...</p>
-                </div>
-            </div>
-
         </div>
 
     </div>
