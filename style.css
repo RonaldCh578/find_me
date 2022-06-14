@@ -25,7 +25,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: var(--white);
+    background-color: var(--nav-bg);
 }
 .nav{
     display: flex;
@@ -356,7 +356,7 @@ body{
     flex-direction: row;*/
     margin: 1em 0;
     padding: 1em;
-    background-color: var(--lightgray);
+    background-color: var(--white);
     border-radius: 1em;
     filter: drop-shadow(0px 5px 5px #27272786);
 }
@@ -389,7 +389,7 @@ body{
     width: 100%;
     font-size: 1.5em;
     font-weight: 700;
-    color: var(--purple-base);
+    color: var(--blue-base);
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
@@ -401,7 +401,7 @@ body{
     text-decoration: none;
 }
 .info-user a:hover{
-    color: var(--purple-base);
+    color: var(--blue-base);
 }
 .info-user span{
     margin: .2em 0;
@@ -442,17 +442,14 @@ body{
     align-items: center;
     margin: .5em 1em;
     padding: .5em 1em;
-    background-color: var(--purple-base);
+    background-color: var(--black);
     border-radius: .7em;
     text-align: center;
     cursor: pointer;
     transition: .2s all;
 }
 .option:hover{
-    background-color: var(--purple-light);
-}
-.option:hover a{
-    color: var(--purple-base);
+    background-color: var(--blue-base);
 }
 .option a{
     margin: 0;

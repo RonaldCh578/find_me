@@ -3,11 +3,8 @@
 <section class="content-fluid min-height main-cont-home">
     <div class="row">
         <div class="col-sm-7 head-home">
-            <h1>
-                ¡Find the talent your searching!
-            </h1>
             <div class="input-group m-auto">
-                    <input type="text" class="form-control search-bar" placeholder="Search something..." aria-label="Search something..." aria-describedby="button-submit">
+                    <input type="text" class="form-control search-bar" placeholder="Career title" aria-label="Search something..." aria-describedby="button-submit">
                     <button class="btn search-btn d-flex justify-content-center align-items-center" type="button" id="button-submit">
 
                         <svg viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -46,13 +43,13 @@
 
         <div class="col-sm-7 m-auto">
             <div class="row container-card-users">
+                <!-- CARD USER -->
                 <div class="row card-user">
                     <div class="col-sm-3 d-flex justify-content-center align-items-center">
                         <a class="container-photo" href="#user01">
                             <img src="<?php echo get_theme_file_uri( 'assets/svg/default-img.svg' ); ?>" alt="default image">
                         </a>
                     </div>
-
                     <div class="col-sm-9">
                         <div class="info-user">
                             <a href="#user01">
@@ -70,6 +67,7 @@
                     </div>
                     
                 </div>
+                <!-- CARD USER -->
 
                 <div class="row card-user">
                     <div class="col-sm-3 d-flex justify-content-center align-items-center">
