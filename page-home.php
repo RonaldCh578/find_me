@@ -1,9 +1,12 @@
 <?php get_header(); ?>
 
 <section class="content-fluid min-height main-cont-home">
-    
+
     <div class="row">
-        <div class="col-sm-7 head-home">
+        <div class="col-12 head-home">
+            <div class="header-img">
+                <img src="<?php echo get_theme_file_uri( 'assets/png/header-background.png' ); ?>" alt="header">
+            </div>
             <h1>
                 ¡Find the talent your searching!
             </h1>
