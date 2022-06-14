@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-sm-7 head-home">
             <h1>
-                ¡Find the talent your searching!
+                JOB DETAIL
             </h1>
             <div class="input-group m-auto">
                     <input type="text" class="form-control search-bar" placeholder="Search something..." aria-label="Search something..." aria-describedby="button-submit">

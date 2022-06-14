@@ -43,107 +43,168 @@
 
         <div class="col-sm-7 m-auto">
             <div class="row container-card-users">
+
                 <!-- CARD USER -->
-                <div class="row card-user">
-                    <div class="col-sm-3 d-flex justify-content-center align-items-center">
-                        <a class="container-photo" href="#user01">
-                            <img src="<?php echo get_theme_file_uri( 'assets/svg/default-img.svg' ); ?>" alt="default image">
-                        </a>
-                    </div>
-                    <div class="col-sm-9">
-                        <div class="info-user">
-                            <a href="#user01">
-                                <h4>User 01</h4>    
-                            </a>
-                            
-                            <span>
-                                <a href="#">Category 1</a>
-                                    | <a href="#">Category 2</a>
-                                    | <a href="#">Category 3</a>
-                                    | <a href="#">Category 4</a>
-                            </span>
-                            <p>Lorem ipsum dolor sit amet te te vero et et consequat in ipsum sit dolor no accusam tempor in eirmod nostrud veniam nonumy sea sit duo sit lorem ipsum gubergren ipsum ut ipsum liber amet te et no labore at justo consectetuer autem et diam amet in diam sed rebum nonumy voluptua</p>
+                <a href="../jobdetail" class="cardLink">
+                    <div class="row card-user">
+                        <div class="col-sm-3 d-flex justify-content-center align-items-center">
+                            <div class="container-photo">
+                                <img src="<?php echo get_theme_file_uri( 'assets/png/google.png' ); ?>" alt="default image">
+                            </div>
                         </div>
+                        <div class="col-sm-9">
+                            <div class="info-user">
+                                <h4>Career Title</h4>         
+                                <b>
+                                    <span>
+                                        <span>Company Name</span>
+                                        <span>|</span>
+                                        <span>San José, SJ</span>
+                                        <span>|</span>
+                                        <span>Full Time</span>
+                                    </span>
+                                </b>
+                                <p>Lorem ipsum dolor sit amet te te vero et et consequat in ipsum sit dolor no accusam tempor in eirmod nostrud veniam nonumy sea sit duo sit lorem ipsum gubergren ipsum ut ipsum liber amet te et no labore at justo consectetuer autem et diam amet in diam sed rebum nonumy voluptua</p>
+                            </div>
+                        </div>                        
                     </div>
-                    
-                </div>
+                </a>                
                 <!-- CARD USER -->
 
-                <div class="row card-user">
-                    <div class="col-sm-3 d-flex justify-content-center align-items-center">
-                        <a class="container-photo" href="#user01">
-                            <img src="<?php echo get_theme_file_uri( 'assets/svg/default-img.svg' ); ?>" alt="default image">
-                        </a>
-                    </div>
-
-                    <div class="col-sm-9">
-                        <div class="info-user">
-                            <a href="#user01">
-                                <h4>User 01</h4>    
-                            </a>
-                            
-                            <span>
-                                <a href="#">Category 1</a>
-                                    | <a href="#">Category 2</a>
-                                    | <a href="#">Category 3</a>
-                                    | <a href="#">Category 4</a>
-                            </span>
-                            <p>Lorem ipsum dolor sit amet te te vero et et consequat in ipsum sit dolor no accusam tempor in eirmod nostrud veniam nonumy sea sit duo sit lorem ipsum gubergren ipsum ut ipsum liber amet te et no labore at justo consectetuer autem et diam amet in diam sed rebum nonumy voluptua</p>
+                <!-- CARD USER -->
+                <a href="../jobdetail" class="cardLink">
+                    <div class="row card-user">
+                        <div class="col-sm-3 d-flex justify-content-center align-items-center">
+                            <div class="container-photo">
+                                <img src="<?php echo get_theme_file_uri( 'assets/png/amazon.png' ); ?>" alt="default image">
+                            </div>
                         </div>
+                        <div class="col-sm-9">
+                            <div class="info-user">
+                                <h4>Career Title</h4>         
+                                <b>
+                                    <span>
+                                        <span>Company Name</span>
+                                        <span>|</span>
+                                        <span>San José, SJ</span>
+                                        <span>|</span>
+                                        <span>Full Time</span>
+                                    </span>
+                                </b>
+                                <p>Lorem ipsum dolor sit amet te te vero et et consequat in ipsum sit dolor no accusam tempor in eirmod nostrud veniam nonumy sea sit duo sit lorem ipsum gubergren ipsum ut ipsum liber amet te et no labore at justo consectetuer autem et diam amet in diam sed rebum nonumy voluptua</p>
+                            </div>
+                        </div>                        
                     </div>
-                    
-                </div>
+                </a>                
+                <!-- CARD USER -->
 
-                <div class="row card-user">
-                    <div class="col-sm-3 d-flex justify-content-center align-items-center">
-                        <a class="container-photo" href="#user01">
-                            <img src="<?php echo get_theme_file_uri( 'assets/svg/default-img.svg' ); ?>" alt="default image">
-                        </a>
-                    </div>
-
-                    <div class="col-sm-9">
-                        <div class="info-user">
-                            <a href="#user01">
-                                <h4>User 01</h4>    
-                            </a>
-                            
-                            <span>
-                                <a href="#">Category 1</a>
-                                    | <a href="#">Category 2</a>
-                                    | <a href="#">Category 3</a>
-                                    | <a href="#">Category 4</a>
-                            </span>
-                            <p>Lorem ipsum dolor sit amet te te vero et et consequat in ipsum sit dolor no accusam tempor in eirmod nostrud veniam nonumy sea sit duo sit lorem ipsum gubergren ipsum ut ipsum liber amet te et no labore at justo consectetuer autem et diam amet in diam sed rebum nonumy voluptua</p>
+                <!-- CARD USER -->
+                <a href="../jobdetail" class="cardLink">
+                    <div class="row card-user">
+                        <div class="col-sm-3 d-flex justify-content-center align-items-center">
+                            <div class="container-photo">
+                                <img src="<?php echo get_theme_file_uri( 'assets/png/google.png' ); ?>" alt="default image">
+                            </div>
                         </div>
+                        <div class="col-sm-9">
+                            <div class="info-user">
+                                <h4>Career Title</h4>         
+                                <b>
+                                    <span>
+                                        <span>Company Name</span>
+                                        <span>|</span>
+                                        <span>San José, SJ</span>
+                                        <span>|</span>
+                                        <span>Full Time</span>
+                                    </span>
+                                </b>
+                                <p>Lorem ipsum dolor sit amet te te vero et et consequat in ipsum sit dolor no accusam tempor in eirmod nostrud veniam nonumy sea sit duo sit lorem ipsum gubergren ipsum ut ipsum liber amet te et no labore at justo consectetuer autem et diam amet in diam sed rebum nonumy voluptua</p>
+                            </div>
+                        </div>                        
                     </div>
-                    
-                </div>
+                </a>                
+                <!-- CARD USER -->
 
-                <div class="row card-user">
-                    <div class="col-sm-3 d-flex justify-content-center align-items-center">
-                        <a class="container-photo" href="#user01">
-                            <img src="<?php echo get_theme_file_uri( 'assets/svg/default-img.svg' ); ?>" alt="default image">
-                        </a>
-                    </div>
-
-                    <div class="col-sm-9">
-                        <div class="info-user">
-                            <a href="#user01">
-                                <h4>User 01</h4>    
-                            </a>
-                            
-                            <span>
-                                <a href="#">Category 1</a>
-                                    | <a href="#">Category 2</a>
-                                    | <a href="#">Category 3</a>
-                                    | <a href="#">Category 4</a>
-                            </span>
-                            <p>Lorem ipsum dolor sit amet te te vero et et consequat in ipsum sit dolor no accusam tempor in eirmod nostrud veniam nonumy sea sit duo sit lorem ipsum gubergren ipsum ut ipsum liber amet te et no labore at justo consectetuer autem et diam amet in diam sed rebum nonumy voluptua</p>
+                <!-- CARD USER -->
+                <a href="../jobdetail" class="cardLink">
+                    <div class="row card-user">
+                        <div class="col-sm-3 d-flex justify-content-center align-items-center">
+                            <div class="container-photo">
+                                <img src="<?php echo get_theme_file_uri( 'assets/png/amazon.png' ); ?>" alt="default image">
+                            </div>
                         </div>
+                        <div class="col-sm-9">
+                            <div class="info-user">
+                                <h4>Career Title</h4>         
+                                <b>
+                                    <span>
+                                        <span>Company Name</span>
+                                        <span>|</span>
+                                        <span>San José, SJ</span>
+                                        <span>|</span>
+                                        <span>Full Time</span>
+                                    </span>
+                                </b>
+                                <p>Lorem ipsum dolor sit amet te te vero et et consequat in ipsum sit dolor no accusam tempor in eirmod nostrud veniam nonumy sea sit duo sit lorem ipsum gubergren ipsum ut ipsum liber amet te et no labore at justo consectetuer autem et diam amet in diam sed rebum nonumy voluptua</p>
+                            </div>
+                        </div>                        
                     </div>
-                    
-                </div>
-                <?php echo do_shortcode("[register_form]"); ?>
+                </a>                
+                <!-- CARD USER -->
+
+                <!-- CARD USER -->
+                <a href="../jobdetail" class="cardLink">
+                    <div class="row card-user">
+                        <div class="col-sm-3 d-flex justify-content-center align-items-center">
+                            <div class="container-photo">
+                                <img src="<?php echo get_theme_file_uri( 'assets/png/google.png' ); ?>" alt="default image">
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="info-user">
+                                <h4>Career Title</h4>         
+                                <b>
+                                    <span>
+                                        <span>Company Name</span>
+                                        <span>|</span>
+                                        <span>San José, SJ</span>
+                                        <span>|</span>
+                                        <span>Full Time</span>
+                                    </span>
+                                </b>
+                                <p>Lorem ipsum dolor sit amet te te vero et et consequat in ipsum sit dolor no accusam tempor in eirmod nostrud veniam nonumy sea sit duo sit lorem ipsum gubergren ipsum ut ipsum liber amet te et no labore at justo consectetuer autem et diam amet in diam sed rebum nonumy voluptua</p>
+                            </div>
+                        </div>                        
+                    </div>
+                </a>                
+                <!-- CARD USER -->
+
+                <!-- CARD USER -->
+                <a href="../jobdetail" class="cardLink">
+                    <div class="row card-user">
+                        <div class="col-sm-3 d-flex justify-content-center align-items-center">
+                            <div class="container-photo">
+                                <img src="<?php echo get_theme_file_uri( 'assets/png/amazon.png' ); ?>" alt="default image">
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="info-user">
+                                <h4>Career Title</h4>         
+                                <b>
+                                    <span>
+                                        <span>Company Name</span>
+                                        <span>|</span>
+                                        <span>San José, SJ</span>
+                                        <span>|</span>
+                                        <span>Full Time</span>
+                                    </span>
+                                </b>
+                                <p>Lorem ipsum dolor sit amet te te vero et et consequat in ipsum sit dolor no accusam tempor in eirmod nostrud veniam nonumy sea sit duo sit lorem ipsum gubergren ipsum ut ipsum liber amet te et no labore at justo consectetuer autem et diam amet in diam sed rebum nonumy voluptua</p>
+                            </div>
+                        </div>                        
+                    </div>
+                </a>                
+                <!-- CARD USER -->
             </div>
         </div>
 

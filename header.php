@@ -17,7 +17,7 @@
         <header>
             <nav class="nav">
                 <div class="container-logo">
-                    <a class="logo" href="#"><span class="career-logo">Career</span><span class="finder-logo">Finder</span></a>
+                    <a class="logo" href="../home"><span class="career-logo">Career</span><span class="finder-logo">Finder</span></a>
                 </div>
 
             </nav>
