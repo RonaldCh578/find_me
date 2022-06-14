@@ -1,12 +1,10 @@
 :root {
-    --purple-base: #6D0B74;
-    --purple-light: #D9A3DD;
-    --orange: #EF830F;
-    --lightgray: #FAFAFA;
-    --gray: #F4F4F4;
-    --blue: #0179B7;
-    --light-orange: #FF9C32;
-    --white: #FAFAFA;
+    --blue-base: #0F4ABE;
+    --blue-light: #2BA5DA;
+    --black: #02000D;
+    --white: #FDFDFD;
+    --nav-bg: #F4F4F4;
+    --gray: #DFDFDF;
 }
 #html{
     margin: 0 !important;
