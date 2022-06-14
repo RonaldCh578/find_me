@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
 <section class="content-fluid min-height main-cont-home">
+    
     <div class="row">
         <div class="col-sm-7 head-home">
             <h1>
@@ -42,113 +43,6 @@
         </div>
     </div>
 
-    <div class="row">
-
-        <div class="col-sm-7 m-auto">
-            <div class="row container-card-users">
-                <div class="row card-user">
-                    <div class="col-sm-3 d-flex justify-content-center align-items-center">
-                        <a class="container-photo" href="#user01">
-                            <img src="<?php echo get_theme_file_uri( 'assets/svg/default-img.svg' ); ?>" alt="default image">
-                        </a>
-                    </div>
-
-                    <div class="col-sm-9">
-                        <div class="info-user">
-                            <a href="#user01">
-                                <h4>User 01</h4>    
-                            </a>
-                            
-                            <span>
-                                <a href="#">Category 1</a>
-                                    | <a href="#">Category 2</a>
-                                    | <a href="#">Category 3</a>
-                                    | <a href="#">Category 4</a>
-                            </span>
-                            <p>Lorem ipsum dolor sit amet te te vero et et consequat in ipsum sit dolor no accusam tempor in eirmod nostrud veniam nonumy sea sit duo sit lorem ipsum gubergren ipsum ut ipsum liber amet te et no labore at justo consectetuer autem et diam amet in diam sed rebum nonumy voluptua</p>
-                        </div>
-                    </div>
-                    
-                </div>
-
-                <div class="row card-user">
-                    <div class="col-sm-3 d-flex justify-content-center align-items-center">
-                        <a class="container-photo" href="#user01">
-                            <img src="<?php echo get_theme_file_uri( 'assets/svg/default-img.svg' ); ?>" alt="default image">
-                        </a>
-                    </div>
-
-                    <div class="col-sm-9">
-                        <div class="info-user">
-                            <a href="#user01">
-                                <h4>User 01</h4>    
-                            </a>
-                            
-                            <span>
-                                <a href="#">Category 1</a>
-                                    | <a href="#">Category 2</a>
-                                    | <a href="#">Category 3</a>
-                                    | <a href="#">Category 4</a>
-                            </span>
-                            <p>Lorem ipsum dolor sit amet te te vero et et consequat in ipsum sit dolor no accusam tempor in eirmod nostrud veniam nonumy sea sit duo sit lorem ipsum gubergren ipsum ut ipsum liber amet te et no labore at justo consectetuer autem et diam amet in diam sed rebum nonumy voluptua</p>
-                        </div>
-                    </div>
-                    
-                </div>
-
-                <div class="row card-user">
-                    <div class="col-sm-3 d-flex justify-content-center align-items-center">
-                        <a class="container-photo" href="#user01">
-                            <img src="<?php echo get_theme_file_uri( 'assets/svg/default-img.svg' ); ?>" alt="default image">
-                        </a>
-                    </div>
-
-                    <div class="col-sm-9">
-                        <div class="info-user">
-                            <a href="#user01">
-                                <h4>User 01</h4>    
-                            </a>
-                            
-                            <span>
-                                <a href="#">Category 1</a>
-                                    | <a href="#">Category 2</a>
-                                    | <a href="#">Category 3</a>
-                                    | <a href="#">Category 4</a>
-                            </span>
-                            <p>Lorem ipsum dolor sit amet te te vero et et consequat in ipsum sit dolor no accusam tempor in eirmod nostrud veniam nonumy sea sit duo sit lorem ipsum gubergren ipsum ut ipsum liber amet te et no labore at justo consectetuer autem et diam amet in diam sed rebum nonumy voluptua</p>
-                        </div>
-                    </div>
-                    
-                </div>
-
-                <div class="row card-user">
-                    <div class="col-sm-3 d-flex justify-content-center align-items-center">
-                        <a class="container-photo" href="#user01">
-                            <img src="<?php echo get_theme_file_uri( 'assets/svg/default-img.svg' ); ?>" alt="default image">
-                        </a>
-                    </div>
-
-                    <div class="col-sm-9">
-                        <div class="info-user">
-                            <a href="#user01">
-                                <h4>User 01</h4>    
-                            </a>
-                            
-                            <span>
-                                <a href="#">Category 1</a>
-                                    | <a href="#">Category 2</a>
-                                    | <a href="#">Category 3</a>
-                                    | <a href="#">Category 4</a>
-                            </span>
-                            <p>Lorem ipsum dolor sit amet te te vero et et consequat in ipsum sit dolor no accusam tempor in eirmod nostrud veniam nonumy sea sit duo sit lorem ipsum gubergren ipsum ut ipsum liber amet te et no labore at justo consectetuer autem et diam amet in diam sed rebum nonumy voluptua</p>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-
-    </div>
 </section>
 
 <?php get_footer(); ?> 
