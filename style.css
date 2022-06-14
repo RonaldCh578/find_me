@@ -385,6 +385,10 @@ body{
     height: 100%;
     /*flex-grow: 2;*/
 }
+.cardLink{
+    text-decoration: none;
+    color: var(--black);
+}
 .info-user h4{
     width: 100%;
     font-size: 1.5em;
@@ -394,8 +398,11 @@ body{
     overflow: hidden;
     white-space: nowrap;
 }
-.info-user h4:hover{
-    color: var(--purple-light);
+.cardLink:hover h4{
+    color: var(--blue-light);
+}
+.cardLink:hover span{
+    color: var(--black);
 }
 .info-user a{
     text-decoration: none;
