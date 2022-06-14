@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
-<section class="content-fluid min-height main-cont-home">
+<section class="content-fluid min-height main-cont-search">
     <div class="row">
-        <div class="col-sm-7 head-home">
+        <div class="col-sm-7 head-search">
             <div class="input-group m-auto">
                     <input type="text" class="form-control search-bar" placeholder="Career title" aria-label="Search something..." aria-describedby="button-submit">
                     <button class="btn search-btn d-flex justify-content-center align-items-center" type="button" id="button-submit">
