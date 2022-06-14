@@ -336,6 +336,10 @@ body{
     margin: 0;
     padding: 4em 0 0 0;
 }
+.main-cont-jobdetail{
+    margin: 0;
+    padding: 4em 0 0 0;
+}
 
 /****HOME PAGE****/
 .head-home{
@@ -368,6 +372,53 @@ body{
     font-weight: 700;
     color: var(--orange);
     width: 100%;
+}
+.head-jobdetail{
+    margin: 1.7em auto 1em auto;
+    width: 90%;
+    padding: 1em;
+    text-align: center; 
+    background: linear-gradient(90deg, var(--blue-base), var(--blue-light));
+}
+.job-details{
+    margin: 1.7em auto 1em auto;
+    width: 90%;
+    padding: 1em;
+    text-align: left; 
+}
+.head-jobdetail h1{
+    margin: 0 0 .5em 0;
+    text-align: left;
+    padding: 0;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: var(--white);
+    width: 100%;
+}
+.head-jobdetail p{
+    margin: 0 0 .5em 0;
+    text-align: left;
+    padding: 0;
+    font-size: 1em;
+    color: var(--white);
+    width: 100%;
+}
+.applynow-btn{
+    width: 50%;
+    display: block;
+    background: var(--black);
+    color: var(--white);
+    padding: 1em;
+    font-weight: 700;
+    margin: auto 0 auto auto;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: .7em;
+    transition: .5s;
+}
+.applynow-btn:hover{
+    background: var(--white);
+    color: var(--black);
 }
 .header-img{
     width: 100%;
