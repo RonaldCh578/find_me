@@ -339,21 +339,29 @@ body{
 
 /****HOME PAGE****/
 .head-home{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 1.7em 0 1em 0;
     padding: 0;
-    height: 90vh;
-    text-align: center; 
+    text-align: center;
+    background: url(./assets/png/header-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .head-home h1{
     margin: 0 0 .5em 0;
     padding: 0;
-    font-size: 3em;
+    text-align: left;
+    font-size: 1.5em;
     font-weight: 700;
-    color: var(--orange);
+    color: var(--black);
+    width: 100%;
+}
+.head-home h2{
+    margin: 0 0 .5em 0;
+    padding: 0;
+    text-align: left;
+    font-size: 1em;
+    font-weight: 500;
+    color: var(--black);
     width: 100%;
 }
 .head-search{
@@ -380,12 +388,51 @@ body{
     object-position: center center;
 }
 .main-container-header{
-    position: absolute;
-    margin: auto 0;
-    width: 100%;
+    margin: 19em auto;
+    padding: 5em 5em;
+    width: fit-content;
     height: auto;
-    top: 0;
-    left: 0;
+    border-radius: 1.5em;
+    background-color: var(--white);
+}
+.main-container-header input{
+    margin: 2em 0;
+    padding: 1em;
+    width: 25em;
+    border-radius: .5em;
+    border-color: var(--black);
+    color: var(--black);
+}
+.main-container-header button{
+    margin: 2em 0;
+    margin-left: 1em;
+    padding: 1em 3em;
+    width: fit-content;
+    border-radius: .5em;
+    border: none;
+    background-color: var(--blue-base);
+    color: var(--white);
+    font-weight: 700;
+}
+.categories{
+    margin: 2em 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+.categories h2{
+    color: var(--gray);
+    font-weight: 500;
+    font-size: 1.5em;
+}
+.categories h3{
+    color: var(--black);
+    font-weight: 700;
+    font-size: 2.5em;
+}
+.category{
+    margin: 0 1em;
+    padding: 2em 1em;
 }
 .container-card-users{
     margin: 0 auto;
