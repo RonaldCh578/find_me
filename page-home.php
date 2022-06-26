@@ -4,6 +4,7 @@
 
     <div class="row">
         <div class="col-12 head-home">
+            <img src="<?php echo get_theme_file_uri( './assets/png/header-background.png' ); ?>" alt="header background">
             <div class="main-container-header">
                 <h1>
                     FIND YOUR NEXT JOB… FAST!

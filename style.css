@@ -343,12 +343,15 @@ body{
 
 /****HOME PAGE****/
 .head-home{
+    position: relative;
     margin: 1.7em 0 1em 0;
     padding: 0;
-    text-align: center;
+    width: 100%;
+    height: 85vh;
+    /*text-align: center;
     background: url(./assets/png/header-background.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
 }
 .head-home h1{
     margin: 0 0 .5em 0;
@@ -367,6 +370,12 @@ body{
     font-weight: 500;
     color: var(--black);
     width: 100%;
+}
+.head-home img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
 .head-search{
     margin: 1.7em auto 1em auto;
@@ -439,17 +448,23 @@ body{
     object-position: center center;
 }
 .main-container-header{
-    margin: 19em auto;
+    position: absolute;
+    margin: auto;
     padding: 5em 5em;
-    width: fit-content;
-    height: auto;
+    width: 80vw;
+    height: fit-content;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     border-radius: 1.5em;
     background-color: var(--white);
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.25));
 }
 .main-container-header input{
     margin: 2em 0;
     padding: 1em;
-    width: 25em;
+    width: 75%;
     border-radius: .5em;
     border-color: var(--black);
     color: var(--black);
