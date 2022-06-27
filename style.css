@@ -5,6 +5,7 @@
     --white: #FDFDFD;
     --nav-bg: #F4F4F4;
     --gray: #DFDFDF;
+    --stroke-grey: #828282;
 }
 #html{
     margin: 0 !important;
@@ -357,7 +358,7 @@ body{
     margin: 0 0 .5em 0;
     padding: 0;
     text-align: left;
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: 700;
     color: var(--black);
     width: 100%;
@@ -366,7 +367,7 @@ body{
     margin: 0 0 .5em 0;
     padding: 0;
     text-align: left;
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: 500;
     color: var(--black);
     width: 100%;
@@ -466,8 +467,11 @@ body{
     padding: 1em;
     width: 75%;
     border-radius: .5em;
-    border-color: var(--black);
-    color: var(--black);
+    border-color: var(--stroke-grey);
+    color: var(--stroke-grey);
+}
+.main-container-header input:focus{
+    outline: none;
 }
 .main-container-header button{
     margin: 2em 0;
@@ -487,18 +491,45 @@ body{
     text-align: center;
 }
 .categories h2{
-    color: var(--gray);
+    color: var(--stroke-grey);
     font-weight: 500;
     font-size: 1.5em;
+    text-transform: uppercase;
 }
 .categories h3{
     color: var(--black);
     font-weight: 700;
     font-size: 2.5em;
+    text-transform: uppercase;
+}
+.categories .all-options-btn{
+    margin: 1.5em 0;
+    padding: 0;
+}
+.categories .all-options-btn a{
+    color: var(--blue-base);
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.categories-container{
+    display: flex;
+    margin: 1.5em auto .5em auto;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
 }
 .category{
-    margin: 0 1em;
-    padding: 2em 1em;
+    margin: .5em 1em;
+    padding: .5em 2em;
+    color: var(--black);
+    background-color: var(--gray);
+    border-radius: .5em;
+    text-decoration: none;
+}
+.category:hover{
+    color: var(--black);
+    background-color: var(--stroke-grey);
 }
 .container-card-users{
     margin: 0 auto;
