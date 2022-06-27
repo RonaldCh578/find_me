@@ -404,6 +404,24 @@ body{
     padding: 1em;
     text-align: left; 
 }
+.job-details-width{
+    width: 70%;
+    margin: auto;
+}
+.job-details h2{
+    margin:  0 0 -1px 0;
+}
+.job-details hr{
+    margin: 0;
+    top: -1px;
+}
+.job-details h2::after{
+    content: "";
+    display: block;
+    padding: 2px;
+    background: var(--blue-base);
+    width: 5em;
+}
 .head-jobdetail h1{
     margin: 0 0 .5em 0;
     text-align: left;
@@ -652,18 +670,25 @@ body{
     text-decoration: none;
     transition: .2s all;
 }
+.job-detail-h3{
+    margin-top: 2em;
+    font-size: 1.5em;
+}
 
 /**** FOOTER ****/
-footer{
-    position: sticky;
-    bottom: 0;
-}
 footer p{
     margin: 0;
-    padding: 1em 1em 1em 0;
+    padding: 2em 0;
     width: 100%;
     text-align: right;
-    color: var(--purple-base);
+    color: var(--stroke-grey);
+}
+footer div{
+    margin: 0 auto;
+    width: 90%;
+}
+footer hr{
+    margin: 0;
 }
 
 /*************************MEDIA QUERIES MOBILE*************************/
