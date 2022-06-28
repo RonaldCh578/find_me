@@ -6,6 +6,8 @@
     //Bootstrap_JS
     wp_enqueue_script('bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js');
 
+	require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
+
     function load_assets(){
         //Cargar el tema CSS
         wp_enqueue_style('style', get_stylesheet_uri());
@@ -19,6 +21,11 @@
     //Soporte para imagenes destacadas en páginas
     add_theme_support('post-thumbnails');
     add_theme_support('menus');
+
+	//Configuracion para el menu
+	register_nav_menus( array(
+		'primary' => __( 'Primary Menu'),
+	) );
 
     // custom post type function
 	function create_jobs_detail() {
