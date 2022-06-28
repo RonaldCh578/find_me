@@ -554,8 +554,6 @@ body{
     padding: 0;
 }
 .card-user{
-    /*display: flex;
-    flex-direction: row;*/
     margin: 1em 0;
     padding: 1em;
     background-color: var(--white);
@@ -566,18 +564,18 @@ body{
     padding: 0;
 }
 .container-photo{
-    /*flex-grow: 1;*/
     margin: 0;
-    margin-right: .7em;
     padding: 0;
     border-radius: 1em;
     overflow: hidden;
+    height: 10em;
 }
 .container-photo img{
     margin: 0;
     padding: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: contain;
 }
 .info-user{
     margin: 0;
@@ -645,6 +643,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .option{
     display: flex;
