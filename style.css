@@ -554,7 +554,6 @@ body{
     padding: 0;
 }
 .card-user{
-    height: 12em;
     margin: 1em 0;
     padding: 1em;
     background-color: var(--white);
