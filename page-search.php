@@ -28,12 +28,11 @@
 
                 </div>
                 <div class="options-container">
-                    <div class="col option"><a href="#">Graphics & Design</a></div>
-                    <div class="col option"><a href="#">Digital Marketing</a></div>
-                    <div class="col option"><a href="#">Video & Animation</a></div>
-                    <div class="col option"><a href="#">Music & Audio</a></div>
-                    <div class="col option"><a href="#">Programming</a></div>
-                    <div class="col option"><a href="#">Others</a></div>
+                    <div class="col option"><a href="#">Graphic Design</a></div>
+                    <div class="col option"><a href="#">UX Design</a></div>
+                    <div class="col option"><a href="#">Web Development</a></div>
+                    <div class="col option"><a href="#">Database management</a></div>
+                    <div class="col option"><a href="#">Servers management</a></div>
                 </div>
             </div>
         </div>
