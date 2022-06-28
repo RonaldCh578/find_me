@@ -10,7 +10,7 @@
 ?>
 
 <!-- CARD USER -->
-<a href="../jobdetail" class="cardLink">
+<a href="<?php the_permalink(); ?>" class="cardLink">
     <div class="row card-user">
         <div class="col-sm-3 d-flex justify-content-center align-items-center">
             <div class="container-photo">

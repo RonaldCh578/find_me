@@ -1,12 +1,18 @@
 <?php get_header(); ?>
 
+<?php
+        // Start the loop.
+        while ( have_posts() ) : the_post();
+    ?>
+
+
 <section class="content-fluid min-height main-cont-jobdetail">
     
     <div class="row">
         <div class="col-sm-7 head-jobdetail">
             <div class="row">
                 <div class="col-6">
-                    <h1>USER EXPERIENCE DESIGN MANAGER</h1>
+                    <h1><?php the_title(); ?></h1>
                     <p>
                         <span>Company Name</span>
                         <span>|</span>
@@ -30,11 +36,11 @@
         <div class="row job-details-width">
             <div class="col-12">
                 <h3 class="job-detail-h3">ABOUT THE COMPANY:</h3>
-                <p>Lorem ipsum dolor sit amet te te vero et et consequat in ipsum sit dolor no accusam tempor in eirmod nostrud veniam nonumy sea sit duo sit lorem ipsum gubergren ipsum ut ipsum liber amet te et no labore at justo consectetuer autem et diam amet in diam sed rebum nonumy voluptua...Lorem ipsum dolor sit amet te te vero et et consequat in ipsum sit dolor no accusam tempor in eirmod nostrud veniam nonumy sea sit duo sit lorem ipsum gubergren ipsum ut ipsum liber amet te et no labore at justo consectetuer autem et diam amet in diam sed rebum nonumy voluptua...Lorem ipsum dolor sit amet te te vero et et consequat in ipsum sit dolor no accusam tempor in eirmod nostrud veniam nonumy sea sit duo sit lorem ipsum gubergren ipsum ut ipsum liber amet te et no labore at justo consectetuer autem et diam amet in diam sed rebum nonumy voluptua.</p>
+                <p><?php the_content(); ?></p>
             </div>
             <div class="col-12">
                 <h3 class="job-detail-h3">JOB DESCRIPTION:</h3>
-                <p>Lorem ipsum dolor sit amet te te vero et et consequat in ipsum sit dolor no accusam tempor in eirmod nostrud veniam nonumy sea sit duo sit lorem ipsum gubergren ipsum ut ipsum liber amet te et no labore at justo consectetuer autem et diam amet in diam sed rebum nonumy voluptua...Lorem ipsum dolor sit amet te te vero et et consequat in ipsum sit dolor no accusam tempor in eirmod nostrud veniam nonumy sea sit duo sit lorem ipsum gubergren ipsum ut ipsum liber amet te et no labore at justo consectetuer autem et diam amet in diam sed rebum nonumy voluptua.</p>
+                <p><?php the_content(); ?></p>
             </div>
             <div class="col-12">
                 <h3 class="job-detail-h3">REQUIREMENTS:</h3>
@@ -51,5 +57,10 @@
     </div>
 
 </section>
+
+    <?php
+        // End the loop.
+        endwhile;
+    ?>
 
 <?php get_footer(); ?> 
