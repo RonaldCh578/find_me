@@ -42,15 +42,13 @@
 			'public' => true,
 			'menu_icon' => 'dashicons-portfolio',
 			'supports' => array( 'title', 'editor', 'thumbnail', 'custom-fields' ),
-            'show_ui' => true,
             'menu_position' => 5,
 			'capability_type' => 'post',
 			'rewrite' => array("slug" => "jobs"), // Permalinks format
-			'taxonomies' => array("category"),
-			'map_meta_cap' => true
+			'taxonomies' => array("category")
 		);
 		
-		register_post_type('reviews', $args);
+		register_post_type('jobs', $args);
 	}
 	// Hooking up our function to theme setup
 	add_action( 'init', 'create_jobs_detail' );

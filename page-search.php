@@ -43,6 +43,10 @@
         <div class="col-sm-7 m-auto">
             <div class="row container-card-users">
 
+            <?php
+                get_template_part('includes/en/jobs');
+            ?>
+
                 <!-- CARD USER -->
                 <a href="../jobdetail" class="cardLink">
                     <div class="row card-user">
