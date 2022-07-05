@@ -54,7 +54,7 @@
 
                 <!-- CARD USER -->
                 <?php
-                    while ( have_posts() ) : the_post();
+                    while (have_posts() ) : the_post();
                         $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
                 ?>
 
@@ -81,8 +81,9 @@
                             </div>
                         </div>                        
                     </div>
+                </a> 
                 <?php endwhile; ?>
-                </a>                
+                              
                 <!-- CARD USER -->
 
             </div>
