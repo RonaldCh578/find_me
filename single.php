@@ -14,11 +14,11 @@
                 <div class="col-6">
                     <h1><?php the_title(); ?></h1>
                     <p>
-                        <span>Company Name</span>
+                        <span><?php the_field('company_name'); ?></span>
                         <span>|</span>
-                        <span>San José, SJ</span>
+                        <span><?php the_field('city'); ?></span>
                         <span>|</span>
-                        <span>Full Time</span>
+                        <span><?php the_field('type'); ?></span>
                     </p>
                 </div>
                 <div class="col-6">
@@ -36,22 +36,21 @@
         <div class="row job-details-width">
             <div class="col-12">
                 <h3 class="job-detail-h3">ABOUT THE COMPANY:</h3>
-                <p><?php the_content(); ?></p>
+                <p><?php the_field('about_company'); ?></p>
             </div>
+            <?php
+                if(the_field('job_description')){
+            ?>
             <div class="col-12">
                 <h3 class="job-detail-h3">JOB DESCRIPTION:</h3>
-                <p><?php the_content(); ?></p>
+                <p><?php the_field('job_description'); ?></p>
             </div>
+            <?php
+                }
+            ?>
             <div class="col-12">
                 <h3 class="job-detail-h3">REQUIREMENTS:</h3>
-                <ul>
-                    <li>Bachelor`s Degree in Web Design or related field.</li>
-                    <li>7 years of experience in User Experience Research User Experience Design.</li>
-                    <li>A passion for research and an ability to ask smart probing questions.</li>
-                    <li>Quantitative research experience a plus.</li>
-                    <li>Experience using a variety of software platforms to create sitemaps workflows wire frames concepts and prototypes.</li>
-                    <li>Ability to translate ideas into concepts and testable prototypes.</li>
-                </ul>
+                <p><?php the_field('requirements'); ?></p>
             </div>
         </div>
     </div>

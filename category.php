@@ -70,14 +70,14 @@
                                 <h4><?php the_title(); ?></h4>         
                                 <b>
                                     <span>
-                                        <span>Company Name</span>
+                                        <span><?php the_field('company_name'); ?></span>
                                         <span>|</span>
-                                        <span>San José, SJ</span>
+                                        <span><?php the_field('city'); ?></span>
                                         <span>|</span>
-                                        <span>Full Time</span>
+                                        <span><?php the_field('type'); ?></span>
                                     </span>
                                 </b>
-                                <p><?php the_content(); ?></p>
+                                <p><?php the_field('about_company'); ?></p>
                             </div>
                         </div>                        
                     </div>

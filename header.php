@@ -15,23 +15,18 @@
     <div>
         <!-- header -->
         <header>
-            <nav class="nav navbar-nav">
+            <nav class="nav">
                 <div class="container-logo container">
 
                     <!-- Brand and toggle get grouped for better mobile display -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'theme-slug' ); ?>">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-
+                    
                     <a class="logo navbar-brand" href="../home"><span class="career-logo">Career</span><span class="finder-logo">Finder</span></a>
                     <?php
                         wp_nav_menu( array(
                             'theme_location'  => 'primary',
-                            'depth'           => 2, // 1 = no dropdowns, 2 = with dropdowns.
+                            'depth'           => 1, // 1 = no dropdowns, 2 = with dropdowns.
                             'container'       => 'div',
-                            'container_class' => 'container-logo collapse navbar-collapse',
-                            'container_id'    => 'bs-example-navbar-collapse-1',
-                            'menu_class'      => 'nav navbar-nav',
+                            'container_class' => 'language-container',
                             'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
                             'walker'          => new WP_Bootstrap_Navwalker(),
                         ) );
