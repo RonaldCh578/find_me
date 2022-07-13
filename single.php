@@ -35,21 +35,17 @@
         </div>
         <div class="row job-details-width">
             <div class="col-12">
-                <h3 class="job-detail-h3">ABOUT THE COMPANY:</h3>
+                <h3 class="job-detail-h3"><p><?php the_field('tittle_about_company'); ?></p></h3>
                 <p><?php the_field('about_company'); ?></p>
             </div>
-            <?php
-                if(the_field('job_description')){
-            ?>
+            
             <div class="col-12">
-                <h3 class="job-detail-h3">JOB DESCRIPTION:</h3>
+                <h3 class="job-detail-h3"><p><?php the_field('tittle_job_description'); ?></p></h3>
                 <p><?php the_field('job_description'); ?></p>
             </div>
-            <?php
-                }
-            ?>
+            
             <div class="col-12">
-                <h3 class="job-detail-h3">REQUIREMENTS:</h3>
+                <h3 class="job-detail-h3"><p><?php the_field('tittle_requirements'); ?></p></h3>
                 <p><?php the_field('requirements'); ?></p>
             </div>
         </div>
