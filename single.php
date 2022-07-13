@@ -11,7 +11,7 @@
     <div class="row">
         <div class="col-sm-7 head-jobdetail">
             <div class="row">
-                <div class="col-6">
+                <div class="col-sm-6">
                     <h1><?php the_title(); ?></h1>
                     <p>
                         <span><?php the_field('company_name'); ?></span>
@@ -21,8 +21,8 @@
                         <span><?php the_field('type'); ?></span>
                     </p>
                 </div>
-                <div class="col-6">
-                    <a href="#" class="applynow-btn">Apply Now</a>
+                <div class="col-sm-6">
+                    <a href="/applicant" class="applynow-btn">Apply Now</a>
                 </div>
             </div>
         </div>

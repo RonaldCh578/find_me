@@ -39,10 +39,6 @@
                 }
             ?>
         </div>
-
-        <div class="col-12 all-options-btn">
-            <a href="#">View all options</a>
-        </div>
     </div>
 
 </section>
