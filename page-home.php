@@ -10,8 +10,8 @@
                     FIND YOUR NEXT JOB… FAST!
                 </h1>
                 <h2>The best options. Good Salaries. Easy to apply.</h2>
-                <form action="#">
-                    <input type="text" name="search" placeholder="Career">
+                <form action="<?php echo home_url('/') ?>" method="GET">
+                    <input type="text" name="s" placeholder="Career">
                     <button type="submit">Search</button>
                 </form>
             </div>
