@@ -702,6 +702,145 @@ footer div{
 footer hr{
     margin: 0;
 }
+.wpcf7-text{
+    margin: .5em 0;
+    padding: .5em 1em;
+    width: 60%;
+    border-radius: .5em;
+    border-color: var(--stroke-grey);
+    color: var(--stroke-grey);
+}
+.wpcf7-text:focus{
+    outline: none;
+}
+.wpcf7-textarea{
+    margin: .5em 0;
+    padding: .5em 1em;
+    width: 60%;
+    border-radius: .5em;
+    border-color: var(--stroke-grey);
+    color: var(--stroke-grey);
+}
+.wpcf7-textarea:focus{
+    outline: none;
+}
+.wpcf7-submit{
+    margin: 2em 0;
+    margin-left: 1em;
+    padding: 1em 3em;
+    width: fit-content;
+    border-radius: .5em;
+    border: none;
+    background-color: var(--blue-base);
+    color: var(--white);
+    font-weight: 700;
+}
+label{
+    font-size: 1.2em;
+    color: var(--black);
+}
+.wpcf7-form h1{
+  font-size: 2em;
+    font-weight: 700;
+    color: var(--blue-base);
+    text-transform: uppercase;
+}
+.wpcf7-form h3{
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: var(--black);
+}
+.wpcf7-form h4{
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: var(--black);
+}
+
+/*************************MEDIA QUERIES TABLET*************************/
+@media only screen and (min-width:480.1px) and (max-width: 960px) {
+    .findme-title{
+        margin: .5em 0 0em;
+        font-size: 4em;
+    }
+    .findme-title-forgot{
+        margin: 1.5em 0 1em;
+    }
+    .are-new{
+        font-size: 1.2em;
+    }
+    .signup-btn{
+        padding: .5em 2em;
+        font-size: .8em;
+    }
+    .heigh100-l{
+        height: 35vh;
+    }
+    .heigh100-r{
+        height: 65vh;
+    }
+    .subtitles{
+        font-size: 1.5em;
+        margin: 1em 0 1em;
+    }
+    .inputs{
+        width: 90%;    
+    }
+    .forgot-password{
+        width: 90%;
+        margin: .5em auto;
+        font-size: .8em;
+    }
+    .go-btn{
+        margin: 2em auto;
+        font-size: 1em;
+    }
+    .send-btn{
+        margin: 2em auto;
+        font-size: 1em;
+        margin-right: 5%;
+        padding: .5em 2em;
+    }
+    .back-btn{
+        margin: 2em auto;
+        font-size: 1em;
+        margin-left: 5%;
+        padding: .5em 2em;
+    }
+    .card{
+        display: block;
+        margin: 2% 15% 18%;
+        padding: 2em;
+        width: 70%;
+        height: 80%;
+        background-color: var(--lightgray);
+        border-radius: 1em;
+    }
+    .col-sm-6{
+        padding: 0;
+        width: 100%;
+    }
+    .main-container-header{
+        padding: 2em;
+    }
+    .main-container-header h1{
+        font-size: 1.7em;
+    }
+    .main-container-header h2{
+        font-size: 1em;
+    }
+    .main-container-header input{
+        width: 100%;
+    }
+    .main-container-header button{
+        margin: 0;
+        width: 100%;
+    }
+    .head-search{
+        width: 90%;
+    }
+}
 
 /*************************MEDIA QUERIES MOBILE*************************/
 @media only screen and (max-width: 480px) {
@@ -800,69 +939,30 @@ footer hr{
         width: 50%;
         height: auto;
     }
-}
-
-/*************************MEDIA QUERIES TABLET*************************/
-@media only screen and (min-width:480.1px) and (max-width: 960px) {
-    .findme-title{
-        margin: .5em 0 0em;
-        font-size: 4em;
-    }
-    .findme-title-forgot{
-        margin: 1.5em 0 1em;
-    }
-    .are-new{
-        font-size: 1.2em;
-    }
-    .signup-btn{
-        padding: .5em 2em;
-        font-size: .8em;
-    }
-    .heigh100-l{
-        height: 35vh;
-    }
-    .heigh100-r{
-        height: 65vh;
-    }
-    .subtitles{
-        font-size: 1.5em;
-        margin: 1em 0 1em;
-    }
-    .inputs{
-        width: 90%;    
-    }
-    .forgot-password{
-        width: 90%;
-        margin: .5em auto;
-        font-size: .8em;
-    }
-    .go-btn{
-        margin: 2em auto;
-        font-size: 1em;
-    }
-    .send-btn{
-        margin: 2em auto;
-        font-size: 1em;
-        margin-right: 5%;
-        padding: .5em 2em;
-    }
-    .back-btn{
-        margin: 2em auto;
-        font-size: 1em;
-        margin-left: 5%;
-        padding: .5em 2em;
-    }
-    .card{
-        display: block;
-        margin: 2% 15% 18%;
-        padding: 2em;
-        width: 70%;
-        height: 80%;
-        background-color: var(--lightgray);
-        border-radius: 1em;
-    }
-    .col-sm-6{
-        padding: 0;
+    .job-details{
+        margin: 0;
         width: 100%;
+    }
+    .job-details-width{
+        width: 90%;
+    }
+    .main-container-header{
+        padding: 2em;
+    }
+    .main-container-header h1{
+        font-size: 1.7em;
+    }
+    .main-container-header h2{
+        font-size: 1em;
+    }
+    .main-container-header input{
+        width: 100%;
+    }
+    .main-container-header button{
+        margin: 0;
+        width: 100%;
+    }
+    .head-search{
+        width: 90%;
     }
 }

@@ -10,7 +10,7 @@
                     ENCUENTRA TU SIGUEINTE TRABAJO… RAPIDO!
                 </h1>
                 <h2>Las mejores opciones. Buenos salarios. Fácil de aplicar.</h2>
-                <form action="#">
+                <form action="<?php echo home_url('/es/') ?>">
                     <input type="text" name="search" placeholder="Carrera">
                     <button type="submit">Search</button>
                 </form>
@@ -39,10 +39,7 @@
                 }
             ?>
         </div>
-
-        <div class="col-12 all-options-btn">
-            <a href="#">Ver más opciones</a>
-        </div>
+        
     </div>
 
 </section>
