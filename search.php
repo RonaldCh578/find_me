@@ -3,9 +3,10 @@
 <section class="content-fluid min-height main-cont-search">
     <div class="row">
         <div class="col-sm-7 head-search">
-            <div class="input-group m-auto">
-                    <input type="text" class="form-control search-bar" placeholder="Career title" aria-label="Search something..." aria-describedby="button-submit">
-                    <button class="btn search-btn d-flex justify-content-center align-items-center" type="button" id="button-submit">
+            <form action="<?php echo home_url('/') ?>" method="GET">
+                <div class="input-group m-auto">
+                    <input type="text" class="form-control search-bar" name="s" placeholder="Career title" aria-label="Search something..." aria-describedby="button-submit">
+                    <button class="btn search-btn d-flex justify-content-center align-items-center" type="submit" id="button-submit">
 
                         <svg viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M20 20L15.514 15.506L20 20ZM18 9.5C18 11.7543 17.1045 13.9163 15.5104 15.5104C13.9163 17.1045 11.7543 18 9.5 18C7.24566 18 5.08365 17.1045 3.48959 15.5104C1.89553 13.9163 1 11.7543 1 9.5C1 7.24566 1.89553 5.08365 3.48959 3.48959C5.08365 1.89553 7.24566 1 9.5 1C11.7543 1 13.9163 1.89553 15.5104 3.48959C17.1045 5.08365 18 7.24566 18 9.5V9.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
@@ -13,6 +14,7 @@
 
                     </button>
                 </div>
+            </form>
         </div>
     </div>
 
@@ -28,11 +30,20 @@
 
                 </div>
                 <div class="options-container">
-                    <div class="col option"><a href="#">Graphic Design</a></div>
-                    <div class="col option"><a href="#">UX Design</a></div>
-                    <div class="col option"><a href="#">Web Development</a></div>
-                    <div class="col option"><a href="#">Database management</a></div>
-                    <div class="col option"><a href="#">Servers management</a></div>
+                    <?php
+                        $categories = get_categories(array(
+                            'orderby' => 'name',
+                            'order' => 'ASC'
+                        ));
+
+                        if(!empty($categories)){
+                            foreach($categories as $category){
+                                echo '<div class="option"><a href="'. get_category_link($category->term_id) .'">'. $category->name .'</a></div>';
+                            }
+                        }else{
+                            echo '<h2>There are no categories yet</h2>';
+                        }
+                    ?>
                 </div>
             </div>
         </div>
@@ -51,9 +62,10 @@
                 // The Query
                 $the_query = new WP_Query( $args );
                 if ( $the_query->have_posts() ) {
-                    _e("<h2>Results for: ".get_query_var('s')."</h2>");
+                    _e('<h2 class="search_results">Results for: '.get_query_var('s'). '</h2>');
                     while ( $the_query->have_posts() ) {
                         $the_query->the_post();
+                        $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
             ?>
                 <!-- CARD USER -->
                 <a href="<?php the_permalink(); ?>" class="cardLink">
