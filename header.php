@@ -20,7 +20,7 @@
 
                     <!-- Brand and toggle get grouped for better mobile display -->
                     
-                    <a class="logo navbar-brand" href="../home"><span class="career-logo">Career</span><span class="finder-logo">Finder</span></a>
+                    <a class="logo navbar-brand" href="/home"><span class="career-logo">Career</span><span class="finder-logo">Finder</span></a>
                     <?php
                         wp_nav_menu( array(
                             'theme_location'  => 'primary',

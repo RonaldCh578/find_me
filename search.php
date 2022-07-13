@@ -44,8 +44,49 @@
             <div class="row container-card-users">
 
             <?php
-                get_template_part('includes/en/jobs');
+                $s=get_search_query();
+                $args = array(
+                        's' =>$s
+                );
+                // The Query
+                $the_query = new WP_Query( $args );
+                if ( $the_query->have_posts() ) {
+                    _e("<h2>Results for: ".get_query_var('s')."</h2>");
+                    while ( $the_query->have_posts() ) {
+                        $the_query->the_post();
             ?>
+                <!-- CARD USER -->
+                <a href="<?php the_permalink(); ?>" class="cardLink">
+                    <div class="row card-user">
+                        <div class="col-sm-3 d-flex justify-content-center align-items-center">
+                            <div class="container-photo">
+                                <img src="<?php echo $featured_img_url ?>" alt="<?php the_title(); ?>">
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="info-user">
+                                <h4><?php the_title(); ?></h4>         
+                                <b>
+                                    <span>
+                                        <span><?php the_field('company_name'); ?></span>
+                                        <span>|</span>
+                                        <span><?php the_field('city'); ?></span>
+                                        <span>|</span>
+                                        <span><?php the_field('type'); ?></span>
+                                    </span>
+                                </b>
+                                <p><?php the_field('about_company'); ?></p>
+                            </div>
+                        </div>                        
+                    </div>
+                </a>               
+                <!-- CARD USER -->
+            <?php
+                }
+            }else{
+            ?>
+                <h2>Nothing Found</h2>
+            <?php } ?> 
             
             </div>
         </div>
