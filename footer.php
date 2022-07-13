@@ -1,6 +1,7 @@
 <!-- footer -->
 <footer>
-    <div><p>WAR Productions 2022</p></div>
+    <hr>
+    <div><p>WAR Productions © 2022. All rights reserved.</p></div>
 </footer>
 <!-- footer -->
 
