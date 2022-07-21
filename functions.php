@@ -46,37 +46,4 @@
 		'primary' => __( 'Primary Menu'),
 	) );
 
-    // custom post type function
-	function create_jobs_detail() {
-		$args = array(
-			'labels' => array(
-				'name' => __( 'Jobs' ),
-				'singular_name' => __( 'Job' ),
-				'menu_name' => __( 'Jobs' ),
-				'name_admin_bar' => __( 'Job' ),
-				'add_new' => __('Add job'),
-				'add_new_item' => __('Add new job'),
-				'new_item' => __('New job'),
-				'edit_item' => __('Edit job'),
-				'view_item' => __('Show job'),
-				'all_items' => __('All jobs'),
-				'search_items' => __('Search jobs'),
-				'parent_item_color' => __('Jobs parent:'),
-				'not_found' => __('There are no jobs registered.'),
-				'not_found_in_trash' => __('No jobs to delete')
-			),
-			'public' => true,
-			'menu_icon' => 'dashicons-portfolio',
-			'supports' => array( 'title', 'editor', 'thumbnail', 'custom-fields' ),
-            'menu_position' => 5,
-			'capability_type' => 'post',
-			'rewrite' => array("slug" => "jobs"), // Permalinks format
-			'taxonomies' => array("category")
-		);
-		
-		register_post_type('jobs', $args);
-	}
-	// Hooking up our function to theme setup
-	add_action( 'init', 'create_jobs_detail' );
-
 ?>
