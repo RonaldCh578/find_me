@@ -7,20 +7,20 @@
             <img src="<?php echo get_theme_file_uri( './assets/png/header-background.png' ); ?>" alt="header background">
             <div class="main-container-header">
                 <h1>
-                    ENCUENTRA TU SIGUEINTE TRABAJO… RAPIDO!
+                    ENCUENTRA TU SIGUIENTE TRABAJO… ¡RÁPIDO!
                 </h1>
                 <h2>Las mejores opciones. Buenos salarios. Fácil de aplicar.</h2>
                 <form action="<?php echo home_url('/es/') ?>">
-                    <input type="text" name="search" placeholder="Carrera">
-                    <button type="submit">Search</button>
+                    <input type="text" name="s" placeholder="Carrera">
+                    <button type="submit">Buscar</button>
                 </form>
             </div>
     </div>
 
     <div class="row categories">
         <div class="col-12">
-            <h2>¿No sabes por donde empezar?</h2>
-            <h3>Busquedas en tendencia</h3>
+            <h2>¿No sabes por dónde empezar?</h2>
+            <h3>Búsquedas en tendencia</h3>
         </div>
 
         <div class="col-12 categories-container">

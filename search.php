@@ -3,7 +3,8 @@
 <section class="content-fluid min-height main-cont-search">
     <div class="row">
         <div class="col-sm-7 head-search">
-            <form action="<?php echo home_url('/') ?>" method="GET">
+            <form action="<?php echo home_url('/');
+ ?>" method="GET">
                 <div class="input-group m-auto">
                     <input type="text" class="form-control search-bar" name="s" placeholder="Career title" aria-label="Search something..." aria-describedby="button-submit">
                     <button class="btn search-btn d-flex justify-content-center align-items-center" type="submit" id="button-submit">
@@ -57,7 +58,8 @@
             <?php
                 $s=get_search_query();
                 $args = array(
-                        's' =>$s
+                        's' =>$s, 
+						'lang' => pll_current_language()
                 );
                 // The Query
                 $the_query = new WP_Query( $args );
