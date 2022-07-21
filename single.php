@@ -22,7 +22,17 @@
                     </p>
                 </div>
                 <div class="col-sm-6">
-                    <a href="/applicant" class="applynow-btn">Apply Now</a>
+					<?php 
+						if(pll_current_language() == 'en'){
+					?>
+							<a href="/applicant" class="applynow-btn">Apply Now</a>
+					<?php
+						}else{
+					?>
+							<a href="/aplicante" class="applynow-btn">Aplicar ahora</a>
+					<?php
+						}
+					?>
                 </div>
             </div>
         </div>
@@ -30,7 +40,17 @@
 
     <div class="row job-details">        
         <div class="col-12">
-            <h2>Job Details</h2>
+			<?php 
+				if(pll_current_language() == 'en'){
+			?>
+				<h2>Job Details</h2>
+			<?php
+				}else{
+			?>
+				<h2>Detalle del puesto</h2>
+			<?php
+				}
+			?>
             <hr>
         </div>
         <div class="row job-details-width">
